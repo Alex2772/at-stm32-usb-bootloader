@@ -22,7 +22,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f0b6d9e-f741-4d8f-832a-d824e1bc0cf8" name="Changes" comment="improved lock screen experience" />
+    <list default="true" id="1f0b6d9e-f741-4d8f-832a-d824e1bc0cf8" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/mystorage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/mystorage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_storage_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_storage_if.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +36,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="146904" />
+    <option name="totalTimeSeconds" value="148097" />
   </component>
   <component name="EmbeddedSvdWindowState">
     <option name="columnWidths">
@@ -105,9 +109,9 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD at-stm32-usb-bootloader">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="at-stm32-usb-bootloader.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="at-stm32-usb-bootloader" TARGET_NAME="at-stm32-usb-bootloader.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="at-stm32-usb-bootloader" RUN_TARGET_NAME="at-stm32-usb-bootloader.elf">
@@ -172,7 +176,8 @@
       <workItem from="1673552030692" duration="3591000" />
       <workItem from="1673603845540" duration="10526000" />
       <workItem from="1673615123773" duration="2244000" />
-      <workItem from="1673617398782" duration="1274000" />
+      <workItem from="1673617398782" duration="1508000" />
+      <workItem from="1673618928004" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="initial 2">
       <created>1669570021695</created>

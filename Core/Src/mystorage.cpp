@@ -28,8 +28,9 @@ static constexpr std::size_t operator""_kilobytes(unsigned long long i) {
     return i * 1024;
 }
 
-static constexpr std::size_t STORAGE_SIZE = 192_kilobytes;
-static constexpr std::size_t TEMPORARY_BUFFER_SIZE = 16_kilobytes;
+static constexpr std::size_t USB_BLOCK_SIZE = 0x200;
+static constexpr std::size_t STORAGE_SIZE = 32_kilobytes;
+static constexpr std::size_t RAM_BUFFER_SIZE = 16_kilobytes;
 
 __attribute__((__section__(".user_data"))) std::array<std::uint8_t, STORAGE_SIZE> gData;
 
@@ -39,7 +40,7 @@ static std::size_t addressToSector(std::uintptr_t address) {
 
 struct RamBuffer {
     std::size_t sectorBeginAddress;
-    std::uint8_t buffer[TEMPORARY_BUFFER_SIZE];
+    std::uint8_t buffer[RAM_BUFFER_SIZE];
 
     explicit RamBuffer(std::size_t initialWriteAddress) {
         sectorBeginAddress = sectorBeginAddressOf(initialWriteAddress);
@@ -80,6 +81,9 @@ static void updateLED() {
 }
 
 extern "C" int mystorage_write(std::size_t address, const std::uint8_t* data, std::size_t size) {
+    address *= USB_BLOCK_SIZE;
+    size *= USB_BLOCK_SIZE;
+
     updateLED();
 
     if (address + size > sizeof(gData)) {
@@ -100,6 +104,9 @@ extern "C" int mystorage_write(std::size_t address, const std::uint8_t* data, st
 }
 
 extern "C" int mystorage_read(std::size_t address, std::uint8_t* data, std::size_t size) {
+    address *= USB_BLOCK_SIZE;
+    size *= USB_BLOCK_SIZE;
+
     updateLED();
 
     if (address + size > sizeof(gData)) {
@@ -112,4 +119,9 @@ extern "C" int mystorage_read(std::size_t address, std::uint8_t* data, std::size
 
     std::memcpy(data, reinterpret_cast<const std::uint8_t*>(&gData) + address, size);
     return 0;
+}
+
+extern "C" void mystorage_getSize(uint32_t* block_num, uint16_t* block_size) {
+    *block_size = USB_BLOCK_SIZE;
+    *block_num = STORAGE_SIZE / *block_size;
 }
