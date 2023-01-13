@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="at-stm32-usb-bootloader" targetName="at-stm32-usb-bootloader.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DPython_EXECUTABLE=C:\Users\Alex2772\AppData\Local\Programs\Python\Python39\python.exe" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="-DPython_EXECUTABLE=C:\Users\Alex2772\AppData\Local\Programs\Python\Python39\python.exe" />
+      <configuration PROFILE_NAME="MinSizeRel" ENABLED="true" CONFIG_NAME="MinSizeRel" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f0b6d9e-f741-4d8f-832a-d824e1bc0cf8" name="Changes" comment="improved lock screen experience" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="146904" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="187" />
+        <option value="82" />
+        <option value="2181" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="Name" />
+        <option value="Value" />
+        <option value="Description" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="2HJrhdX6PpzPcUTqq59HmulT6f1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex2772/CLionProjects/at-stm32-usb-bootloader/CMakeLists.txt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex2772\CLionProjects\at-steam-solution\firmware\Core\Src\app\screen" />
+      <recent name="C:\Users\Alex2772\CLionProjects\at-steam-solution\Core\Src\ssd1306" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex2772\CLionProjects\at-steam-solution\firmware" />
+      <recent name="C:\Users\Alex2772\CLionProjects\at-steam-solution\Core\Src\ssd1306" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD at-stm32-usb-bootloader">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="at-stm32-usb-bootloader.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="at-stm32-usb-bootloader" TARGET_NAME="at-stm32-usb-bootloader.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="at-stm32-usb-bootloader" RUN_TARGET_NAME="at-stm32-usb-bootloader.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.at-stm32-usb-bootloader.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD at-stm32-usb-bootloader" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f0b6d9e-f741-4d8f-832a-d824e1bc0cf8" name="Changes" comment="" />
+      <created>1668014148540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668014148540</updated>
+      <workItem from="1668014163037" duration="1000" />
+      <workItem from="1668014188920" duration="263000" />
+      <workItem from="1668038253726" duration="2169000" />
+      <workItem from="1668040485563" duration="8317000" />
+      <workItem from="1668184036959" duration="3174000" />
+      <workItem from="1668215533182" duration="607000" />
+      <workItem from="1668286502915" duration="2780000" />
+      <workItem from="1668347633052" duration="3840000" />
+      <workItem from="1668563311214" duration="8067000" />
+      <workItem from="1668728953125" duration="13640000" />
+      <workItem from="1668812897527" duration="40643000" />
+      <workItem from="1669068784447" duration="19586000" />
+      <workItem from="1669164540957" duration="22907000" />
+      <workItem from="1669299515234" duration="3000" />
+      <workItem from="1669334044591" duration="12520000" />
+      <workItem from="1669502180631" duration="11143000" />
+      <workItem from="1669673260499" duration="5180000" />
+      <workItem from="1669778067578" duration="10579000" />
+      <workItem from="1669942033928" duration="11582000" />
+      <workItem from="1670029764948" duration="7349000" />
+      <workItem from="1671467686545" duration="2367000" />
+      <workItem from="1671473219961" duration="71000" />
+      <workItem from="1671473633717" duration="694000" />
+      <workItem from="1671475060687" duration="40000" />
+      <workItem from="1672710805370" duration="3732000" />
+      <workItem from="1673140303254" duration="615000" />
+      <workItem from="1673210718059" duration="646000" />
+      <workItem from="1673309789372" duration="7320000" />
+      <workItem from="1673540925349" duration="2102000" />
+      <workItem from="1673547348061" duration="798000" />
+      <workItem from="1673550050598" duration="8000" />
+      <workItem from="1673552030692" duration="3591000" />
+      <workItem from="1673603845540" duration="10526000" />
+      <workItem from="1673615123773" duration="2244000" />
+      <workItem from="1673617398782" duration="1274000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial 2">
+      <created>1669570021695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669570021695</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added license">
+      <created>1669570253094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669570253094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minor improvements">
+      <created>1669731148932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669731148932</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dialgos">
+      <created>1669952021601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669952021601</updated>
+    </task>
+    <task id="LOCAL-00005" summary="more user friendly lock screen">
+      <created>1669985968241</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669985968241</updated>
+    </task>
+    <task id="LOCAL-00006" summary="battery">
+      <created>1670035923495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670035923495</updated>
+    </task>
+    <task id="LOCAL-00007" summary="improved lock screen experience">
+      <created>1670036096883</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670036096883</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial 2" />
+    <MESSAGE value="added license" />
+    <MESSAGE value="minor improvements" />
+    <MESSAGE value="dialgos" />
+    <MESSAGE value="more user friendly lock screen" />
+    <MESSAGE value="battery" />
+    <MESSAGE value="improved lock screen experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved lock screen experience" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c</url>
+          <line>218</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/stm32f4xx_it.c</url>
+          <line>92</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="gData._M_elems" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
