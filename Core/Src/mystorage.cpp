@@ -28,14 +28,23 @@ static constexpr std::size_t operator""_kilobytes(unsigned long long i) {
     return i * 1024;
 }
 
-static constexpr std::size_t USB_BLOCK_SIZE = 0x200;
-static constexpr std::size_t STORAGE_SIZE = 32_kilobytes;
+static constexpr std::size_t USB_BLOCK_SIZE = 512;
+static constexpr std::size_t STORAGE_SIZE = 64_kilobytes;
 static constexpr std::size_t RAM_BUFFER_SIZE = 16_kilobytes;
 
 __attribute__((__section__(".user_data"))) std::array<std::uint8_t, STORAGE_SIZE> gData;
 
 static std::size_t addressToSector(std::uintptr_t address) {
-    return (address - 0x800'0000) / 0x4000;
+    if (address < 0x801'0000) {
+        return (address - 0x800'0000) / 0x4000;
+    }
+    if (address < 0x802'0000) {
+        return 4;
+    }
+    if (address < 0x804'0000) {
+        return 5;
+    }
+    return 0;
 }
 
 struct RamBuffer {

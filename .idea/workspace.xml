@@ -22,10 +22,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f0b6d9e-f741-4d8f-832a-d824e1bc0cf8" name="Changes" comment="init">
+    <list default="true" id="1f0b6d9e-f741-4d8f-832a-d824e1bc0cf8" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/mystorage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/mystorage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_storage_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_storage_if.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F401CCUx_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F401CCUx_FLASH.ld" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="148097" />
+    <option name="totalTimeSeconds" value="151695" />
   </component>
   <component name="EmbeddedSvdWindowState">
     <option name="columnWidths">
@@ -109,11 +109,6 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD at-stm32-usb-bootloader">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="at-stm32-usb-bootloader.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="at-stm32-usb-bootloader" TARGET_NAME="at-stm32-usb-bootloader.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="at-stm32-usb-bootloader" RUN_TARGET_NAME="at-stm32-usb-bootloader.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -177,7 +172,8 @@
       <workItem from="1673603845540" duration="10526000" />
       <workItem from="1673615123773" duration="2244000" />
       <workItem from="1673617398782" duration="1508000" />
-      <workItem from="1673618928004" duration="1869000" />
+      <workItem from="1673618928004" duration="9066000" />
+      <workItem from="1673737227917" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="initial 2">
       <created>1669570021695</created>
@@ -228,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670036096883</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor">
+      <created>1673620885599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673620885599</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +256,8 @@
     <MESSAGE value="more user friendly lock screen" />
     <MESSAGE value="battery" />
     <MESSAGE value="improved lock screen experience" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved lock screen experience" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
